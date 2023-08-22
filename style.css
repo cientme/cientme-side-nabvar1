@@ -318,9 +318,11 @@ body.dark .switch::before{
     left: 250px;
     height: 100vh;
     width: calc(100% - 250px);
-    background: yellow;
+    /* background: yellow; */
     border: 5px solid pink;
     transition: var(--tran-05);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container .text{
